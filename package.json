@@ -1,0 +1,39 @@
+{
+  "name": "phaser-boilerplate",
+  "version": "1.0.0",
+  "description": "Putting together a forkable, cloneable phaser starter repo so I don't need to stasrt fresh with all the necessary dependencies for each new phaser project.",
+  "main": "index.js",
+  "dependencies": {
+    "phaser": "^3.55.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.4.4",
+    "raw-loader": "^4.0.2",
+    "terser-webpack-plugin": "^5.2.5",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config webpack/base.js --open",
+    "build": "webpack --config webpack/prod.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thephilwells/phaser-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thephilwells/phaser-boilerplate/issues"
+  },
+  "homepage": "https://github.com/thephilwells/phaser-boilerplate#readme"
+}
